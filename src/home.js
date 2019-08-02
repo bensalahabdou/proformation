@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './header';
-import Footer from './footer';
+import FooterPage from './footer';
 import SimpleSlider from './main';
 
 export default class Home extends Component {
@@ -10,7 +10,7 @@ export default class Home extends Component {
             <div>
               <Header />
               <SimpleSlider/>
-              <Footer/>
+              <FooterPage/>
           
             </div>
         )

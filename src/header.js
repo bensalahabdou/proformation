@@ -14,6 +14,10 @@ export default class Header extends Component {
                    
                    <Link to="/"><img className="logo" src="https://scontent.ftun10-1.fna.fbcdn.net/v/t1.15752-9/67958800_1073651643024599_1829430685392175104_n.jpg?_nc_cat=108&_nc_oc=AQkZ0ApbpcULNvXwXGxkoQ_pn_43sY6VqWVzzISWCy6WqI0lBW4v1kzftlQHM9PRce0&_nc_ht=scontent.ftun10-1.fna&oh=22026b4c85debc3fdd4e13f13d3951e9&oe=5DA10A4E" /></Link>
                    <SearchPage />
+                   <div className="links-connexion">
+                   <Link className="nav-connexion" to="/signup"><button>SignUp</button></Link>
+                   <Link className="nav-connexion" to="/signin"><button>SignIn</button></Link>
+                   </div>
                </div>
                <div>
                <NavBar/>
